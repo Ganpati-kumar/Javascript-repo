@@ -25,3 +25,34 @@ const bigNumber = 3142532625n // n use for big int
    console.log(typeof bigNumber);// bigint
    // undefined -  undefined
    // Null -        object
+
+
+
+   ///*********** **************************************** */
+
+// Memory => Stack (primitive)  and Heap (Non primitive)
+
+
+let myProfileName = " ganpatidotcom"
+
+let anothername = myProfileName
+
+anothername = " Ganpatiji"
+
+console.log(myProfileName ); // ganpatidotcom
+
+console.log(anothername );  // Ganpatiji 
+
+let userOne = { 
+     email: "sdsgv@1232"
+   
+}
+let usertwo = userOne
+                             // changes in heap memory reflect on both one
+usertwo.email = " ganpati@1223"
+console.log(userOne.email);    // ganpati@1223
+console.log(usertwo.email);      // ganpati@1223
+     
+
+ 
+
