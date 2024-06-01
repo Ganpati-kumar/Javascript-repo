@@ -36,7 +36,7 @@ const JsUser = {
 
 
    // to change value  in objects
-   JsUser.name = " Duggu"
+   JsUser.name = " Duggu"  // changing name
    console.log(JsUser["name"]); // duggu
 
    // to make freeze 
