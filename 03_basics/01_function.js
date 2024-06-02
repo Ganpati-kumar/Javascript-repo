@@ -18,7 +18,7 @@ function  addTwoNumber (num1 , num2) {  // parameter
     console.log(num1 + num2);
 }
 
-//addTwoNumber(3 , 4) // 7   // arguments
+addTwoNumber(3 , 4) // 7   // arguments
 
 function  addTwoNumber1 (num1 , num2) {  // parameter 
     let result = num1 + num2
@@ -27,7 +27,7 @@ function  addTwoNumber1 (num1 , num2) {  // parameter
     return result /// after return no any con sole work inside function
 }
 const result = addTwoNumber1(5,5) // 10
-//console.log(result);
+console.log(result);
 
 //************************************ */
 
@@ -35,7 +35,7 @@ const result = addTwoNumber1(5,5) // 10
 function loginUserMessage (username)  {
     return `${username} just logged in `
 }
- //console.log(loginUserMessage("Ganpati")) //Ganpati just logged in 
+ console.log(loginUserMessage("Ganpati")) //Ganpati just logged in 
 
  //+++++++++++++++++++++++++++++++++++++++++//
     // rest operator ... // also known as spread operator  
@@ -43,9 +43,9 @@ function loginUserMessage (username)  {
   function calculateCarPrice( ...num1){
     return num1
   }
- //console.log(calculateCarPrice(200));  // 200 for single one value
+ console.log(calculateCarPrice(200));  // 200 for single one value
 
- //console.log(calculateCarPrice(300,233,422)); // [ 300, 233, 422 ] // for multiple use ... rest operator
+ console.log(calculateCarPrice(300,233,422)); // [ 300, 233, 422 ] // for multiple use ... rest operator
  
  //+++++++++++++++++++++++++++++++
 
