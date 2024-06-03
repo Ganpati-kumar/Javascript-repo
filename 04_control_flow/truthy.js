@@ -10,18 +10,18 @@
 
 // object in if 
 
-// const emptyobj = {}
-// if (Object.keys(emptyobj).length === 0)  {
-//     console.log("objects is empty");
-// }
+const emptyobj = {}
+if (Object.keys(emptyobj).length === 0)  {
+    console.log("objects is empty");
+}
 
 // ++++++++++++++++++  Nullish Coalescing Operator(??) : null undefined
 
-// let val1 ;
-// val1 = 5  ?? 10 // 5
-// val1 = null  ?? 10 // 10
-// val1 = undefined  ?? 15 // 15
-// console.log(val1); 
+let val1 ;
+val1 = 5  ?? 10 // 5
+val1 = null  ?? 10 // 10
+val1 = undefined  ?? 15 // 15
+console.log(val1); 
 
 //+++++++++++++++++Ternary operator +++++++++++++++++++++++++//
 // condition ? true : false       // syntax
